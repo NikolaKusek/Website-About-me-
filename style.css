@@ -1,0 +1,132 @@
+.background-img{
+    background-image:url(Background.jpg) ;
+    background-size: cover;
+    height: 500px;
+
+
+}
+@media (max-width:1000px)
+{
+    .Me>*{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.Name{
+    font-weight: 700;
+}
+.Kusek{
+    padding-top: 180px;
+}
+.Me{
+    padding-top: 60px; ;
+}
+.Profile{
+border-radius: 10px;
+}
+.background1{
+    background-color: rgb(208, 249, 255);
+    margin-top: 100px;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    color: white;
+    font-weight: 600;
+}
+.font{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 20px;
+    margin-top: 30px;
+    color: antiquewhite;
+    padding-top: 20px   ;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.font1{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 25px;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 200px 200px;
+    gap: 70px;
+    padding-bottom: 150px;
+}
+@media (min-width:1000px){
+.Programing>*{
+    display: flex;
+    border-radius: 20px;
+    grid-area: 2/2/3/3;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 150px;
+  
+}
+.Fighting>*{
+    display: flex;
+    border-radius: 20px;
+    grid-area: 2/3/4/-1;
+    align-self: center;
+    margin-top: 50px;
+    margin-left: 150px;
+
+
+}
+
+}
+.MySkills{
+    padding-top: 70px;
+    grid-column: span 2;
+    margin-bottom: 50px;
+    
+}
+
+h3{
+    padding-top: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+.List{
+    font-size: 25px;
+    padding-top: 20px;
+    list-style-type: none;
+    margin-left: -28px;
+    
+}
+.footer{
+    padding-bottom: 30px;
+}
+@media (max-width:1000px)
+{
+    .cen>*{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #section-1>*{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       flex-direction: column;
+        
+       
+    }
+    .Programing>*{
+        border-radius: 15px;
+       }
+    .Fighting>*{
+        border-radius: 15px;
+    }
+
+    .MySkills>*{
+        padding-bottom: -1000px;
+    }
+}
