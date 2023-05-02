@@ -5,6 +5,8 @@
 
 
 }
+
+
 @media (max-width:1000px)
 {
     .Me>*{
@@ -144,6 +146,12 @@ h3{
    }
    p{
     color: rgb(96, 96, 96);
+}
+.si{
+    font-size: 2rem;
+}
+.btn{
+    font-size: 2rem;
 }
 }
 p{
